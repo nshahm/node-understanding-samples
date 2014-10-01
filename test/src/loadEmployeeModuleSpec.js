@@ -2,7 +2,7 @@
 // or chai expect or assert or should
 var assert = require('assert');
 // Similar to test case class
-describe ('load employee module', function() {
+describe ('Employee Module', function() {
 	
 	
 	

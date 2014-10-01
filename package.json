@@ -1,5 +1,5 @@
 {
-  "name": "nodejs.samples",
+  "name": "nodejs-understanding-samples",
   "version": "1.0.0",
   "description": "Sample code to understand nodejs",
   "main": "index.js",
