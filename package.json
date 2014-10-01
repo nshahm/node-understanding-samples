@@ -1,0 +1,20 @@
+{
+  "name": "nodejs.samples",
+  "version": "1.0.0",
+  "description": "Sample code to understand nodejs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run test-mocha && npm run test-mocha-html",
+    "test-mocha": "mocha test/src",
+    "test-mocha-html": "mocha test/src -R spec > test/spec/spec.html"
+  },
+  "author": "Shahm Nattarshah",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.4"
+  }
+}
