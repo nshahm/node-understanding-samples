@@ -2,9 +2,6 @@
 global.chai = require('chai');
 global.expect = chai.expect;
 
-//require('../../src/SampleModule/NBuffer')
-
-
 describe('Sample Module', function() {
 	it('should load sample module', function() {
 		var sampleModule = require('../../src/SampleModule');

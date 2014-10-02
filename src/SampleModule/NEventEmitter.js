@@ -40,5 +40,5 @@ compareNumberInstance.on('error', function (error) {
 	console.log(error);
 });
 
-compareNumberInstance.checkGreater(1, 2);
+compareNumberInstance.checkGreater(5, 2);
 
