@@ -14,7 +14,7 @@ var path = require('path');
 
 fs.readdir(path.normalize(__dirname), function (err, files) {
 	if (err) {
-		throw new Error ('Problem in loading Sample Module...');
+		throw new Error ('Problem in loading APIWorkout Module...');
 	}
 	console.log(files);
 	
